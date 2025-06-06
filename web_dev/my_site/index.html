@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Магазин цветов</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <div class="logo">🌸 Flower shop 🌸</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="login.html">Личный кабинет</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="Hero section hero">
+    <div class="hero-content">
+      <h1>Красивые цветы с доставкой на дом</h1>
+      <p>Выбирайте лучшие букеты для ваших любимых</p>
+      <a href="#products" class="btn">Выбрать букет</a>
+    </div>
+  </section>
+  
+  <section id="products" class="products">
+    <h2>Популярные букеты</h2>
+    <div class="product-list">
+      <!-- Сюда JS динамически подставит карточки продуктов -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Магазин цветов. Все права защищены.</p>
+    <p>Контакты: +7 (900) 123-45-67</p>
+  </footer>
+
+  <!-- Подключаем наш JavaScript, который будет обращаться к API -->
+  <script src="javascript.js"></script>
+</body>
+</html>
